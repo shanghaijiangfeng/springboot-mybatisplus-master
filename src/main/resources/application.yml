@@ -1,0 +1,26 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.106.105.248:3306/project
+    username: admin
+    password: jf199488
+
+  thymeleaf:
+    cache: false
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  mapper-locations: classpath:mapper/diff/*Mapper.xml
+  type-aliases-package: com.example.diff.entity
+logging:
+  level:
+    com.example.diff.mapper: trace
+    org:
+      springboot:
+        demo:
+          mapper=debug:
