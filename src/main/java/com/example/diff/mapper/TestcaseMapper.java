@@ -1,6 +1,6 @@
 package com.example.diff.mapper;
 
-import com.example.diff.domain.Banner;
+import com.example.diff.domain.Testcase;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -10,9 +10,9 @@ import org.apache.ibatis.annotations.Mapper;
  * </p>
  *
  * @author shuaifeng
- * @since 2021-12-27
+ * @since 2022-01-06
  */
 @Mapper
-public interface BannerMapper extends BaseMapper<Banner> {
+public interface TestcaseMapper extends BaseMapper<Testcase> {
 
 }

@@ -46,7 +46,12 @@ public class LoginFilter implements Filter {
         if(!StringUtils.isEmpty(token)){
 
             //判断token是否合法
-            if(token!=null){
+            //关掉token验证
+//            if(token==null){
+            //打开token验证
+//            if(token!=null){
+
+            if(token==null){
                 filterChain.doFilter(servletRequest,servletResponse);
             }else {
 

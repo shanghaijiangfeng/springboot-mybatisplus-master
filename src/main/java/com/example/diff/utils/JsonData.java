@@ -23,12 +23,12 @@ public class JsonData {
 
     // 成功，传入数据
     public static JsonData buildSuccess() {
-        return new JsonData(0, null, null);
+        return new JsonData(200, null, null);
     }
 
     // 成功，传入数据
     public static JsonData buildSuccess(Object data) {
-        return new JsonData(0, data, null);
+        return new JsonData(200, data, null);
     }
 
     // 失败，传入描述信息
