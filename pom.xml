@@ -178,14 +178,14 @@
         <dependency>
             <groupId>net.hasor</groupId>
             <artifactId>hasor-spring</artifactId>
-            <version>4.1.4</version>
+            <version>4.1.6</version>
         </dependency>
         <!--hasor-dataway 是工作在 Hasor 之上，利用 hasor-spring 我们就可以使用 dataway-->
         <dependency>
             <groupId>net.hasor</groupId>
             <artifactId>hasor-dataway</artifactId>
             <!-- 4.1.4 包存在UI资源缺失问题 -->
-            <version>4.1.4</version>
+            <version>4.1.6</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
 <!--        <dependency>-->
